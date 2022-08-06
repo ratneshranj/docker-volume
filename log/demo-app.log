@@ -1,0 +1,6 @@
+2022-08-06 22:47:47.793  INFO 8504 --- [main] com.docker.spring.boot.ApplicationTests  : Starting ApplicationTests on DESKTOP-25JDLAM with PID 8504 (started by server in H:\docker-volume-project\docker-volume)
+2022-08-06 22:47:47.805  INFO 8504 --- [main] com.docker.spring.boot.ApplicationTests  : No active profile set, falling back to default profiles: default
+2022-08-06 22:47:53.882  INFO 8504 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-06 22:47:54.641  WARN 8504 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-08-06 22:47:55.029  INFO 8504 --- [main] com.docker.spring.boot.ApplicationTests  : Started ApplicationTests in 10.307 seconds (JVM running for 19.619)
+2022-08-06 22:47:57.503  INFO 8504 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -19,7 +19,7 @@ WORKDIR /opt/app
 COPY ${JAR_FILE} app.jar
 
 # mount /opt/app/app.jar
-VOLUME /usr/src/app/data
+VOLUME "/opt/app/log"
 
 # java -jar /opt/app/app.jar
 ENTRYPOINT ["java","-jar","app.jar"]
