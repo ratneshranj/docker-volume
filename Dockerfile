@@ -10,12 +10,12 @@ FROM adoptopenjdk/openjdk8:alpine-jre
 LABEL "Maintainer"="Ratnesh"
 
 # Refer to Maven build -> finalName
-ARG JAR_FILE=target/spring-boot-docker.jar
+ARG JAR_FILE=target/docker-volume.jar
 
 # cd /opt/app
 WORKDIR /opt/app
 
-# cp target/spring-boot-docker.jar /opt/app/app.jar
+# cp target/docker-volume.jar /opt/app/app.jar
 COPY ${JAR_FILE} app.jar
 
 # mount /opt/app/app.jar
